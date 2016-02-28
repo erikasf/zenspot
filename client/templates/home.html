@@ -1,0 +1,45 @@
+---
+name: home
+url: /
+---
+
+<div class="grid-block">
+	<div class="grid-content image overlay">
+	
+	  <h1>Find Your Zen</h1>
+	  <p class="lead">Explore The Hidden ZenSpots In Your City.</p>
+		<span class="inline-label">
+			<input type="search" placeholder="Search by city or zip code">
+			<a href="#" ui-sref="results" class="button"><img zf-iconic="" icon="magnifying-glass" size="small"></a>
+		</span>
+	</div>
+</div>
+<hr>
+
+<div class="grid-block">
+	<div class="grid-content large-6 image overlay">
+		<h3>Discover the Beauty Nearby!</h3>
+    <p>Looking for a place to recollect and focus for the rest of the day? You don't have to pay hundreds to find it, Enjoy one of San Francisco's hidden zen spots to regroup and eat lunch..</p>
+	</div>
+	<div class="grid-content large-6 image overlay">
+		<h3>Add &amp; Share Zen Spots</h3>
+    <p>Share your favorite zen spots. Think its to special to share with just anyone? Become a member and keep them just inbetween other members.</p>
+	</div>
+</div>
+
+<div class="grid-block">
+	<div class="grid-content">
+		<hr>
+		<h4>Featured Zen Spots</h4>
+    <p>Each week we feature the top place to find your zen. We also hold , for our special zen members, weekly gatherings at one of these places with a light lunch and beautiful scenery to meet others working and living near you.</p>
+    <p><a ui-sref="home.featured" class="button">View featured zen spots in your area</a></p>
+	</div>
+</div>
+
+<!-- featured trails view -->
+<div ui-view></div>
+
+
+
+
+

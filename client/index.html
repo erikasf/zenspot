@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZenSpot</title>
+    <link href="./assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/templates.js"></script>
+    <script src="./assets/js/routes.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </head>
+  <body>
+    <div class="qgrid-frame vertical">
+      <div class="grid-block shrink wrap" style="padding: 0;">
+
+        <div class="grid-content collapse small-12 medium-5">        
+          <ul class="primary menu-bar">
+            <li ui-sref-active="is-active">
+              <a ui-sref="home"><strong><img zf-iconic="" icon="person" size="small" class="float-left"> Zen Spot</strong></a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-content collapse small-12 medium-7">        
+          <ul class="primary menu-bar">
+            <li ui-sref-active="is-active"><a ui-sref="add-spots">Add ZenSpot</a></li>
+            <li ui-sref-active="is-active"><a ui-sref="about">About</a></li>
+            <li ui-sref-active="is-active"><a ui-sref="contact">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="grid-block">
+        <div class="grid-block show-for-medium medium-5">
+		
+<div class="embed-container" ><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="erika2" src="http://www.arcgis.com/apps/Embed/index.html?webmap=2d6b973dbc3e49a6a88a5fceb347f25e&amp;extent=-122.5313,37.6903,-122.3075,37.8596&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=true&amp;details=true&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=dark"></iframe><br /><small><a href="http://www.arcgis.com/apps/Embed/index.html?webmap=2d6b973dbc3e49a6a88a5fceb347f25e&amp;extent=-122.5313,37.6903,-122.3075,37.8596&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=true&amp;details=true&amp;basemap_gallery=true&amp;disable_scroll=true&amp;theme=dark" style="color:#0000FF;text-align:left" target="_blank">View larger map</a></small></div>
+        </div>
+        <div ui-view class="grid-content"></div>
+      </div>
+
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
